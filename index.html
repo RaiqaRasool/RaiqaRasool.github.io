@@ -1,43 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+      <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Robot Friend</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>Raiqa Rasool Portfolio</title>
     </head>
     <body>
-        <header>
-            <h1>Robot Friend</h1>
+        <header id="header">
+            <nav id="navbar">
+                <h1 class="logo">Raiqa</h1>
+                  <div class="hamberger">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                  </div>
+                 <ul class="nav-menu">
+                   <li class="nav-links"><a href="#about" class="nav-link">About Me</a></li> 
+                   <li class="nav-links"><a href="#projects" class="nav-link">Portfolio</a></li> 
+                   <li class="nav-links"><a href="#contact" class="nav-link">Contact Me</a></li>  
+                 </ul>
+              </nav>
+            </header>
+                    <!-- Hero Section------------------- -->
+        <div class="hero-section" id="welcome-section">
+            <h1 class="hero-heading heading">I'm Raiqa Rasool</h1>
+            <p class="sub-heading">Frontend & WordPress Developer </p>
+            <a href="https://drive.google.com/file/d/1QqQfzsgDbLavlGKy2qd7QppFKxECMcIY/view?usp=sharing" target="_blank"
+            class="button hero-button">Download Resume</a>
+        </div>
+    <!-- Border--------------- -->
+    <div class="banner"></div>
+    <!-- About Us-------------------------- -->
+        <header class="about-us heading" id="about">
+            About Me
         </header>
-        <main>
-            <section class="head">
-                <div class="eye">
-                </div>
-                <div class="eye">
-                </div>
-            </section>
-            <section class="body">
-                <div class="arm left">
+        <p class="about-data">
+            I am an experienced WordPress web designer and have worked for two years as WordPress Freelancer. I have good skills in HTML, CSS and JS and also have basic level in PHP, WordPress Theme and Plugin development, UX/UI Designing using Figma and Photoshop. I am continuously practicing to reach at professional level in all of these skills and also have intention of learning backend development too once I master these. To know more about me have a look at my resume.
+        </p>
+        <div class="divider" id="about-divider"></div>
+        <div class="projects" id="projects">
+            <div class="projects-heading">Work Done by me</div>
+            <div class="divider" id="project-divider"></div>
+            <h1 class="project-sub-heading">
+                Frontend Projects
+            </h1>
+            <div class="projects-frontend-container">
+                <div class="container"><iframe class="project" src="https://codepen.io/Raiqa/full/VweKZKB" width="300" height="400"></iframe>
+                <a href="https://codepen.io/Raiqa/full/VweKZKB" class="project-link-box" target="_blank">Product Page</a></div>
+                <div class="container">
+                <iframe class="project" src="https://codepen.io/Raiqa/full/LYLRapX" width="300" height="400"></iframe>
+                <a href="https://codepen.io/Raiqa/full/LYLRapX" class="project-link-box" target="_blank">Survey Form</a></div>
+                <div class="container">
+                <iframe class="project project-tile" src="https://codepen.io/Raiqa/full/JjJJRoM" width="300" height="400"></iframe><a href="https://codepen.io/Raiqa/full/JjJJRoM" class="project-link-box" target="_blank">Technical Document</a></div>
+            </div>
+            <h1 class="project-sub-heading wordpress-heading">
+                WordPress Projects
+            </h1>
+            <div class="projects-wordpress-container">
+                <div class="container">
+                <iframe class="project" src="https://fourays-solutions.com/" width="300" height="400"></iframe>
+                <a href="https://fourays-solutions.com/" class="project-link-box" target="_blank">Fourays Solutions</a></div>
+                <div class="container">
+                <iframe class="project" src="https://steliodelapaz.com/fr/" width="300" height="400"></iframe>
+                <a href="https://steliodelapaz.com/fr/" class="project-link-box" target="_blank">Steliodepaz</a></div>
+                <div class="container">
+                <iframe class="project" src="https://blog.thebigreads.com/" width="300" height="400"></iframe>
+                <a href="https://blog.thebigreads.com/" class="project-link-box" target="_blank">TheBigReads</a></div>
+            
 
+            </div>
+        </div>
+        <div class="contact-us" id="contact">
+            <header class="contact-heading">Contact Me</header>
+        <form id="form" action="https://formcarry.com/s/eZuHrUaHVyC" method="POST" class="contact-form">
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <textarea name="Message" cols="30" rows="5" placeholder="Message"></textarea>
+            <input type="submit" value="Send" id="submit-contact">
+        </form>
+    </div>          
+            <div id="footer">
+                <div class="social-links">
+                    <a href="https://codepen.io/Raiqa" class="social-icon" id="profile-link" target="_blank"><i class="fab fa-codepen actual-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/raiqa-rasool-4864881b4" target="_blank" class="social-icon"><i class="fab fa-linkedin actual-icon"></i></a>
+                    <a href="https://chatwith.io/s/raiqa-rasool" class="social-icon" target="_blank"><i class="fab fa-whatsapp-square actual-icon"></i></a>
                 </div>
-                <div class="belly">
-
-                </div>
-                <div class="arm right">
-                    
-                </div>
-            </section>
-            <section class="feet">
-                <div class="foot" style="margin-right:2px;">
-
-                </div>  
-                <div class="foot"style="margin-left:2px;">
-
-                </div>              
-            </section>
-
-        </main>
-    </body>
+                <p>&copy; Copyright All Rights Reserved</p>
+            </div>
+        <script src="app.js"></script>
+        </body>
     </html>
